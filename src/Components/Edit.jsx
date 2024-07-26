@@ -112,8 +112,7 @@ const Edit = (props) => {
           alt="Logo"
           style={{
             position: "absolute",
-            // top: "10px",
-            // left: "20px",
+
             top: "14px",
             left: "190px",
             width: "130px", // Adjust width as needed

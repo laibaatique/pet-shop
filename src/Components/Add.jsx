@@ -67,7 +67,6 @@ const Add = (props) => {
   const handlePriceChange = (e) => {
     setPrice(e.target.value);
     setPriceError(!isPositiveNumber(e.target.value) && e.target.value !== "");
-    // setPriceError(e.target.value === "");
   };
 
   const handleClose = () => {
@@ -96,8 +95,8 @@ const Add = (props) => {
             position: "absolute",
             top: "14px",
             left: "190px",
-            width: "130px", // Adjust width as needed
-            height: "85px", // Maintain aspect ratio
+            width: "130px",
+            height: "85px",
             boxShadow:
               "10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(0, 0, 0, 0.2)",
           }}
